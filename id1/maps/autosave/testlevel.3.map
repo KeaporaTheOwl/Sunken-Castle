@@ -1,0 +1,22 @@
+// Game: Quake
+// Format: Standard
+// entity 0
+{
+"classname" "worldspawn"
+"wad" "D:/Quake-Multiplayer-Map/wads/prototype_1_2.wad"
+// brush 0
+{
+( -384 -128 -32 ) ( -384 -127 -32 ) ( -384 -128 -31 ) __TB_empty 0 0 0 1 1
+( 0 -128 -32 ) ( 0 -128 -31 ) ( 1 -128 -32 ) __TB_empty 0 0 0 1 1
+( 0 -128 -16 ) ( 1 -128 -16 ) ( 0 -127 -16 ) __TB_empty 0 0 0 1 1
+( 128 0 0 ) ( 128 1 0 ) ( 129 0 0 ) __TB_empty 0 0 0 1 1
+( 128 0 0 ) ( 129 0 0 ) ( 128 0 1 ) __TB_empty 0 0 0 1 1
+( 256 0 0 ) ( 256 0 1 ) ( 256 1 0 ) __TB_empty 0 0 0 1 1
+}
+}
+// entity 1
+{
+"classname" "info_player_start"
+"origin" "0 -64 24"
+"angle" "90"
+}
