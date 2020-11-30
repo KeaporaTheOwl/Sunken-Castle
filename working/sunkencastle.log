@@ -4,38 +4,38 @@ Output file: sunkencastle.bsp
 
 ---- LoadMapFile ----
 *** WARNING 06: No info_player_deathmatch entities in level
-          328 faces
-           48 brushes
+         1942 faces
+          318 brushes
             2 entities
-            5 unique texnames
-          110 texinfo
+            6 unique texnames
+          133 texinfo
 
 Opened WAD: D:/Sunken-Castle/wads/prototype_1_2.wad
 Processing hull 0...
 ---- Brush_LoadEntity ----
-           48 brushes
-          150 planes
+          318 brushes
+          318 planes
 ---- CSGFaces ----
-          328 brushfaces
-          449 csgfaces
-          483 mergedfaces
+         1942 brushfaces
+         2102 csgfaces
+         1873 mergedfaces
 ---- SolidBSP ----
-          503 split nodes
-          123 solid leafs
-          322 empty leafs
-           59 water leafs
+         2578 split nodes
+          975 solid leafs
+         1521 empty leafs
+           83 water leafs
             0 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-         1214 leaffaces
-          992 nodefaces
+         5108 leaffaces
+         4634 nodefaces
 ---- Portalize ----
-          381 vis leafs
-          381 vis clusters
-         1129 vis portals
+         1604 vis leafs
+         1604 vis clusters
+         4385 vis portals
 ---- FillOutside ----
-*** WARNING 10: Reached occupant at (224 -192 40), no filling performed.
+*** WARNING 10: Reached occupant at (224 -192 24), no filling performed.
 Leak file written to sunkencastle.pts
 ---- MakeFaceEdges ----
 ---- GrowRegions ----
@@ -45,20 +45,20 @@ Processing hull 2...
 *** WARNING 19: No entities in empty space -- no filling performed (hull 2)
 ---- WriteBSPFile ----
 Wrote sunkencastle.bsp
-          419 planes             8380
-         1090 vertexes          13080
-          503 nodes             12072
-          105 texinfo            4200
-          992 faces             19840
-         1245 clipnodes          9960
-          382 leafs             10696
-         1214 marksurfaces       2428
-         3952 surfedges         15808
-         2574 edges             10296
-            5 textures          76384
+          654 planes            13080
+         5008 vertexes          60096
+         2578 nodes             61872
+          118 texinfo            4720
+         4634 faces             92680
+         6224 clipnodes         49792
+         1605 leafs             44940
+         5108 marksurfaces      10216
+        18474 surfedges         73896
+        11781 edges             47124
+            6 textures          98188
               lightdata             0
               visdata               0
               entdata             137
 
-0.295 seconds elapsed
-Peak memory usage: 5578344 (5.3M)
+0.425 seconds elapsed
+Peak memory usage: 27167248 (25.9M)
