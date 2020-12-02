@@ -4,12 +4,17 @@ running with 8 threads
 LoadBSPFile: 'sunkencastle.bsp'
 BSP is version 29
 --- LoadEntities ---
-2 entities read, 0 are lights.
+WARNING: brush entity with mins (1313.00 -367.00 35.) maxs (1375.00 -305.00 49.) (func_button) has empty key/value "targetname" ""
+WARNING: brush entity with mins (2611.00 -3815.00 -3) maxs (2621.00 -3777.00 -1) (func_door) has empty key/value "target" ""
+WARNING: brush entity with mins (2611.00 -3871.00 -3) maxs (2621.00 -3833.00 -1) (func_door) has empty key/value "target" ""
+WARNING: brush entity with mins (3081.00 -2783.00 -3) maxs (3207.00 -2769.00 -3) (trigger_changelevel) has empty key/value "map" ""
+WARNING: brush entity with mins (3081.00 -2783.00 -3) maxs (3207.00 -2769.00 -3) (trigger_changelevel) has empty key/value "targetname" ""
+24 entities read, 0 are lights.
 --- OptionsSummary ---
 Embree_TraceInit: Embree version: 2.15.0
 Embree_TraceInit:
 	0 sky faces
-	4436 solid faces
+	4424 solid faces
 	0 filtered faces
 	0 shadow-casting skip faces
 SetupLights: 0 initial lights
@@ -25,7 +30,7 @@ Lighting Completed.
 lightdatasize: 0
 0 switchable light styles (32 max)
 Writing sunkencastle.bsp as BSP version 29
-0.256 seconds elapsed
+0.365 seconds elapsed
 
 stats:
 0.000000 lights tested, 0.000000 hits per sample point
