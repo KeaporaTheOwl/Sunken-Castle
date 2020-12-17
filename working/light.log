@@ -11,12 +11,13 @@ WARNING: brush entity with mins (2611.00 -3815.00 -3) maxs (2621.00 -3777.00 -1)
 WARNING: brush entity with mins (2611.00 -3871.00 -3) maxs (2621.00 -3833.00 -1) (func_door) has empty key/value "target" ""
 WARNING: brush entity with mins (3057.00 -2739.00 -3) maxs (3239.00 -2725.00 -2) (trigger_changelevel) has empty key/value "targetname" ""
 WARNING: brush entity with mins (1637.00 -1807.00 -4) maxs (1755.00 -1801.00 -3) (trigger_secret) has targetname "sewersecret" which is not targetted by anything.
-257 entities read, 174 are lights.
+WARNING: brush entity with mins (1313.00 -367.00 57.) maxs (1375.00 -305.00 111) (trigger_once) has targetname "scragspawn" which is not targetted by anything.
+263 entities read, 174 are lights.
 --- OptionsSummary ---
 Embree_TraceInit: Embree version: 2.15.0
 Embree_TraceInit:
-	56 sky faces
-	6156 solid faces
+	220 sky faces
+	6308 solid faces
 	0 filtered faces
 	0 shadow-casting skip faces
 SetupLights: 174 initial lights
@@ -29,12 +30,12 @@ Final count: 174 lights 0 suns in use.
 0....1....2....3....4....5....6....7....8....9....
 Lighting Completed.
 
-lightdatasize: 107474
+lightdatasize: 108062
 0 switchable light styles (32 max)
 Writing sunkencastle.bsp as BSP version 29
-0.887 seconds elapsed
+0.943 seconds elapsed
 
 stats:
-2.126944 lights tested, 1.422709 hits per sample point
+2.104636 lights tested, 1.409420 hits per sample point
 0.000000 bounce lights tested, 0.000000 hits per sample point
 0 empty lightmaps
