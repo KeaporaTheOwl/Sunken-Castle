@@ -33,7 +33,7 @@ Lighting Completed.
 lightdatasize: 108062
 0 switchable light styles (32 max)
 Writing sunkencastle.bsp as BSP version 29
-0.943 seconds elapsed
+1.035 seconds elapsed
 
 stats:
 2.104636 lights tested, 1.409420 hits per sample point
